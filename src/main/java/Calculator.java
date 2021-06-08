@@ -1,5 +1,9 @@
 public class Calculator {
 
+    public Calculator() {
+
+    }
+
     public int add(int numOne, int numTwo){
         return numOne + numTwo;
     }

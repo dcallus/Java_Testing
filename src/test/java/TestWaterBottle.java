@@ -6,7 +6,6 @@ import static org.junit.Assert.assertEquals;
 public class TestWaterBottle {
 
     WaterBottle waterBottle;
-    private Object assertEquals;
 
     @Before
     public void before(){
