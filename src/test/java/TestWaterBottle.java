@@ -19,16 +19,20 @@ public class TestWaterBottle {
 
     @Test
     public void canTakeDrink(){
-        assertEquals(90, waterBottle.takeDrink());
+        waterBottle.takeDrink();
+        assertEquals(90, waterBottle.getVolume());
     }
 
     @Test
     public void canEmptyDrink(){
-        assertEquals(0, waterBottle.emptyDrink());
+        waterBottle.emptyDrink();
+        assertEquals(0, waterBottle.getVolume());
     }
 
     @Test
+
     public void canFillDrink(){
-        assertEquals(100, waterBottle.fill());
+        waterBottle.fill();
+        assertEquals(100, waterBottle.getVolume());
     }
 }
